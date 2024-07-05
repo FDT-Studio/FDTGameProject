@@ -1,0 +1,8 @@
+Game_name:与斯卡蒂的沙滩时光;
+Game_key:fdtgameproject_01;
+Title_img:bg.png;
+Title_bgm:主界面/沙滩小憩.mp3;
+Textbox_theme:imss;
+Description:啊哈哈哈哈哈哈哈哈哈;
+Package_name:com.fdtstudio.game01;
+Game_Logo:IMG_20240704_151813.jpg;
