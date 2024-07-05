@@ -1,10 +1,10 @@
-miniAvatar:选择小头像;
+miniAvatar:20240703211313.png;
 intro:本游戏为基于《明日方舟》世界观的同人作品，原作由鹰角网络开发并拥有最终版权。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:本游戏的创作初衷是为了向原作致敬以及在独特小众圈子分享，游戏中所有出场角色都已成年，其性质完全非商业，不涉及任何盈利目的。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:一切擅自传播倒卖的行为，与同人作者无关。 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:请注意，本作品为R16级别，含有成人导向的内容，以及描绘了某些非常规的性癖好。这些元素可能引起部分观众的不适。请确保您做好了相应充足的准备，谨慎游玩。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:最后，本游戏所有内容皆为免费，不涉及任何盈利，如果您是花费金钱购买到本作品，请及时向我们举报。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-:开发版本，不代表最终品质。 -fontSize=default;
+:开发版本，不代表最终品质。|0.2.1.240706_dev -fontSize=default;
 :13:00P.M. 汐斯塔沙滩 -fontSize=default;
 changeBg:背景/沙滩.png -next -unlockname=汐斯塔沙滩1;
 bgm:日常/日常-arce.mp3 -enter=500;
