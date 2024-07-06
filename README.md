@@ -1,4 +1,5 @@
-<h1 align="center">芬达兔游戏计划FDTGameProject</h1>
+<h1 align="center">芬达兔游戏计划</h1>
+<h2 align="center">FDTGameProject</h2>
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/FDT-Studio/games_compiletime)
   
