@@ -35,7 +35,13 @@ choose:唔，这种味道，斯卡蒂你不会一开始买烧烤的时候就是�
 :斯卡蒂放屁的味道带有某种明显的油腻和腥味，虽然并没放多少，还是让人想要逃开。 -fontSize=small;
 斯卡蒂:不行呢，博士，现在防晒霜还没涂完，不能走开哦。 -fontSize=small;
 :斯卡蒂用双腿压住了博士的腰，这也带着她的屁股撅了起来，从对准小腹提高到胸口。 -fontSize=small;
-:噗嘶嘶嘶嘶～～～～～～～～~~~~~~~~~~~~~~~~~ -fart/斯卡蒂fart2-[AudioTrimmer.com].mp3 -fontSize=small;
+:噗嘶嘶嘶嘶～～～～～～～ -fart/斯卡蒂fart2-1.mp3 -fontSize=small;
+:噗嗤嗤嗤嗤............ -fart/斯卡蒂fart2-2.mp3 -fontSize=small;
+:嘶嘶嘶嘶嘶嘶嘶嘶嘶嘶......... -fart/斯卡蒂fart2-3.mp3 -fontSize=small;
+:噗嘶嘶嘶嘶嘶嘶嘶嘶嘶~~~~ -fart/斯卡蒂fart2-4.mp3 -fontSize=small;
+:嘶嘶嘶嘶嘶嘶嘶嘶嘶嘶......... -fart/斯卡蒂fart2-5.mp3 -fontSize=small;
+:嘶嘶嘶嘶嘶嘶嘶嘶嘶嘶—————— -fart/斯卡蒂fart2-6.mp3 -fontSize=small;
+;草，救救孩子吧，实在想不出来用啥拟声词好了
 :几发没有多少声响的闷屁中油腻和蛋白腐败的味道愈发浓重，这个距离感觉捂住鼻子都不够用了。 -fontSize=small;
 博士:这也根本没法逃跑啊，而且，这种热裤，真要在这里也涂防晒霜的吗...？ -fontSize=small;
 :（尝试从斯卡蒂小腹处的扣子解开，方便脱下她的热裤） -fontSize=small;
@@ -51,11 +57,11 @@ choose:咳咳，这味道我能说什么？:选择场景文件;
 斯卡蒂:只要涂完「这里」就好了，每一寸都涂好，也可以考虑收拾东西回岛... -fontSize=small;
 :咕呜呜～～～～ -肠鸣/腹鸣_0.wav -fontSize=large;
 :最终还是没有选择的权力，在手上重新挤了些防晒霜后，开始慢慢揉搓斯卡蒂也算得上引以为豪的屁股。 -fontSize=small;
-:噗～噗噗～～～ -fart/斯卡蒂fart3.mp3 -fontSize=medium;
+:噗呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜~~ -fart/斯卡蒂fart3.mp3 -fontSize=medium;
 :就像是挤压某种整蛊玩具，每次对斯卡蒂的屁股施加力道，两侧臀瓣在微微变形的同时，都会把一小股浓臭的屁喷在博士身边。 -fontSize=small;
 斯卡蒂:哈啊...哈啊...... -fontSize=small;
 :不同于博士的呼吸困难，斯卡蒂很明显享受这样慢慢放屁的过程。 -fontSize=small;
-:噗噗噗～～～～ -fart/斯卡蒂fart4.mp3 -fontSize=medium;
+:噗嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤嗤～～～～ -fart/斯卡蒂fart4.mp3 -fontSize=medium;
 斯卡蒂:博士，左边那里，感觉还没涂好... -fontSize=small;
 :噗噜噜噜噜噜噜噜噜噜噜噜～～～～～～ -fart/斯卡蒂fart5.mp3 -fontSize=medium;
 斯卡蒂:右边，我刚才放屁的方向也.......... -fontSize=small;
@@ -73,6 +79,7 @@ changeFigure:斯卡蒂fixed/8fcf5369ad576e9886eec33a7d698592.png -next;
 choose:等等，这就没有..:选择场景文件;
 changeFigure:选择立绘文件 -next;
 changeBg:bg.png -next;
+;御坂球好帅
 :噗呜呜呜呜呜呜～～～～～～～～～～！！ -fart/斯卡蒂fart终fixed.mp3 -fontSize=large;
 :终于这一发污浊的响声和腹部更深处发酵的恶臭兼具的熏屁，还是彻底的击垮了博士的意志。 -fontSize=small;
 :除此之外，这份糟糕的味道也引起了旅游的路人的注意。 -fontSize=small;
@@ -84,5 +91,5 @@ changeFigure:斯卡蒂fixed/8fcf5369ad576e9886eec33a7d698592.png -next;
 :斯卡蒂将自己撅起的屁股放下，让博士失神的倒向柔软的沙滩。 -fontSize=small;
 :感受着屁股因为涂抹防晒霜的奇怪质感，虽然很想继续放屁，但考虑更希望博士醒着分享，最终还是只简单的将热裤围上。 -fontSize=small;
 :如同先前说的一般，斯卡蒂背起博士，很轻松的收起沙滩毯和伞，连带着剑袋一起打包好。 -fontSize=small;
-斯卡蒂:博士还承诺好到时候一起帮我弄头发，是一次还是三次，唔，到时候再放屁给他提醒自己记住就好了... -fontSize=small;
+斯卡蒂:博士还承诺好到时候一起帮我弄头发，是一次还是三次，唔，到时候再「放屁」给他提醒自己记住就好了... -fontSize=small;
 changeScene:end.txt
