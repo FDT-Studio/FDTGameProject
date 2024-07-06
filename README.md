@@ -1,4 +1,4 @@
-# 芬达兔游戏计划-编译时仓库
+<h1 align="center">芬达兔游戏计划FDTGameProject</h1>
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/FDT-Studio/games_compiletime)
   
