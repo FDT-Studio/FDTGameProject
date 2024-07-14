@@ -1,38 +1,114 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Bug 反馈
+description: 遇到了问题？跟我们说说吧。
+title: "[Bug][游戏代号]: 在这里输入你的标题"
+labels: ["bug"]
+assignees: Misaka2298
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您进行Bug反馈。反馈时请在上面的文本框⬆️起一个能够清晰描述您的问题的标题，便于开发者解决您的问题。**不要删掉开头的“[Bug][游戏代号]: ”。**
+        请将“游戏代号”更改为你要反馈的游戏的代号：
+    - 《与斯卡蒂的沙滩时光》：01
+        
+        如果您不知道如何有效、精准地表述，我们建议您先阅读《提问的智慧》（[链接](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)）。
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在开始反馈这个问题之前，请先检查：
+      options:
+        - label: 我已经在 [Issues](https://github.com/FDT-Studio/FDTGameProject/issues) 中找过我要提出的问题，没有找到相同问题的ISSUE。 
+          required: true
+        - label: 如果您是在线游玩——我已经确定我在游玩时使用的是我们推荐的浏览器——Safari(仅苹果)、Microsoft Edge、Google Chrome、FireFox，而不是使用如百度、360、2345、UC浏览器、手机自带浏览器游玩的。
+          required: false
+        - label: 如果您使用的是Windows电脑本地游玩(非在线游玩)——我确定我的电脑使用的系统版本大于等于Windows7 SP1 。
+          required: false
+        - label: 我已经详细阅读过游戏的帮助文档，但我的问题没有得到解答。
+          required: true
+  - type: markdown
+    attributes: 
+      value: |
+        ## Bug 信息
 
----
+        描述您遇到的 Bug。如果可以的话，您可以附上截图、录屏、堆栈跟踪、日志等材料，便于开发者追踪问题。
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: 重现步骤
+      description: |
+        我们需要执行哪些操作才能让 bug 出现？
+        简洁清晰的重现步骤能够帮助我们更迅速地定位问题所在。
+      placeholder: |
+        1. 首先……
+        2. 然后……
+        3. ……
+    validations:
+      required: true
+  - type: textarea
+    id: excepted
+    attributes:
+      label: 期望的行为
+      description: 详细的描述你期望发生的行为，突出与目前（可能不正确的）行为的不同。
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 实际结果
+      description: 实际发生的行为。
+    validations:
+      required: true
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: 堆栈跟踪（可选）
+      description: 如果在遇到这个bug时发生了崩溃（弹出崩溃提示），或者产生了错误日志，请将产生的堆栈跟踪信息粘贴到此处，便于定位bug。
+      render: shell
+  - type: markdown
+    attributes:
+      value: |
+        ## 环境信息
+  - type: input
+    id: app_version
+    attributes:
+      label: 游戏版本
+      description: 您当前使用的游戏版本号，一般来说游戏开头会显示。
+      placeholder: 如：1.0.0.240715Beta
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: 运行环境
+      description: 游戏是在什么环境中运行的呢？
+      options:
+        - 在线游玩(WebRuntime)
+        - 电脑-Windows
+        - 电脑-MacOS
+        - 手机-Android
+        - 手机-IOS
+        - 其他-Linux
+      default: 0
+    validations:
+      required: true
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+  - type: dropdown
+    id: 如果为在线游玩——使用的浏览器
+    attributes:
+      label: 您游玩该游戏时使用的浏览器。
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+    
+  - type: checkboxes
+    id: revision
+    attributes:
+      label: 最后一步
+      description: 回顾您的回答
+      options:
+        - label: 我认为上述的描述已经足以详细，以允许开发人员能复现该问题
+          required: true
