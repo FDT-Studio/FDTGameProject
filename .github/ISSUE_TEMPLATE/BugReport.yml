@@ -94,9 +94,10 @@ body:
       required: true
 
   - type: dropdown
-    label: 如果为在线游玩——使用的浏览器
+    label: 如果为在线游玩-使用的浏览器
     id: browser
     attributes:
+    label: 您在在线游玩时使用的浏览器。
       multiple: true
       options:
         - Firefox
