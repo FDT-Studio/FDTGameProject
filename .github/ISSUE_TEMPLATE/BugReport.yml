@@ -96,14 +96,17 @@ body:
   - type: dropdown
     id: browser
     attributes:
-    label: 如果为在线游玩-使用的浏览器
-    description: 您在在线游玩时使用的浏览器。
-    options:
+      label: 如果是在线游玩-使用的浏览器
+      description: 您在在线游玩时使用的浏览器。
+      options:
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
-    
+      default: 0
+    validations:
+      required: false
+
   - type: checkboxes
     id: revision
     attributes:
