@@ -1,0 +1,38 @@
+name: 提出建议
+description: 提出一个新的建议。
+title: "[提出建议]: 在这里输入你的标题"
+labels: ["enhancement"]
+assignees: Misaka2298
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您贡献您的想法。请在上面的文本框⬆️起一个能够清晰描述您的想法的标题，便于开发者了解您的想法。**不要删掉开头的“[提出建议][游戏代号]: ”。**
+        请将“游戏代号”更改为你要反馈的游戏的代号
+        · 《与斯卡蒂的沙滩时光》：01
+        
+        > **重要：如果您想要提出多项建议，请为每一个建议开一个单独的issue**
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在开始之前，请先检查：
+      options:
+        - label: 我已经在 [Issues](https://github.com/FDT-Studio/FDTGameProject/issues) 中找过我要提出的问题，没有找到相同问题的ISSUE。
+          required: true
+        - label: 我已经详细阅读过游戏的帮助文档，但我想要的功能没有实现。
+          required: true
+  - type: textarea
+    id: back
+    attributes:
+      label: 背景与动机
+      description: 提出此建议的理由。
+    validations:
+      required: true
+  - type: textarea
+    id: req
+    attributes:
+      label: 想要实现或优化的功能
+      description: 详细地描述一下你想要的功能，描述的越具体，采纳的可能性越高。
+    validations:
+      required: true
