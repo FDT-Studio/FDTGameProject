@@ -10,6 +10,8 @@ body:
         感谢您进行Bug反馈。反馈时请在上面的文本框⬆️起一个能够清晰描述您的问题的标题，便于开发者解决您的问题。**不要删掉开头的“[Bug][游戏代号]: ”。**
         请将“游戏代号”更改为你要反馈的游戏的代号
         · 《与斯卡蒂的沙滩时光》：01
+
+        > **重要：如果您想要反馈多个问题，请为每一个问题开一个单独的issue**
         
         如果您不知道如何有效、精准地表述，我们建议您先阅读《提问的智慧》（[链接](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)）。
   - type: checkboxes
@@ -20,7 +22,7 @@ body:
       options:
         - label: 我已经在 [Issues](https://github.com/FDT-Studio/FDTGameProject/issues) 中找过我要提出的问题，没有找到相同问题的ISSUE。 
           required: true
-        - label: 如果您是在线游玩——我已经确定我在游玩时使用的是我们推荐的浏览器——Safari(仅苹果)、Microsoft Edge、Google Chrome、FireFox，而不是使用如百度、360、2345、UC浏览器、手机自带浏览器游玩的。
+        - label: 如果您是在线游玩——我已经确定我在游玩时使用的是我们推荐的浏览器——Safari(仅苹果)、Microsoft Edge、Google Chrome、FireFox，而不是使用如百度、360、2345、UC浏览器、手机自带浏览器等其他浏览器游玩的。
           required: false
         - label: 如果您使用的是Windows电脑本地游玩(非在线游玩)——我确定我的电脑使用的系统版本大于等于Windows7 SP1 。
           required: false
