@@ -98,7 +98,6 @@ body:
     id: browser
     attributes:
     label: 您在在线游玩时使用的浏览器。
-      multiple: true
       options:
         - Firefox
         - Chrome
