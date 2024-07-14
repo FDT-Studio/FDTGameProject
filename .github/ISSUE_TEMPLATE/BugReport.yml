@@ -95,7 +95,7 @@ body:
 
   - type: dropdown
     label: 如果为在线游玩——使用的浏览器
-    id: Browser
+    id: browser
     attributes:
       label: 您游玩该游戏时使用的浏览器。
       multiple: true
