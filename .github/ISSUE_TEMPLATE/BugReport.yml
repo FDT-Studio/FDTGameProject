@@ -13,21 +13,16 @@ body:
 
         > **重要：如果您想要反馈多个问题，请为每一个问题开一个单独的issue**
         
-        如果您不知道如何有效、精准地表述，我们建议您先阅读《提问的智慧》（[链接](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)）。
   - type: checkboxes
     id: checklist
     attributes:
       label: 检查清单
       description: 在开始反馈这个问题之前，请先检查：
       options:
-        - label: 我已经在 [Issues](https://github.com/FDT-Studio/FDTGameProject/issues) 中找过我要提出的问题，没有找到相同问题的ISSUE。 
-          required: true
         - label: 如果您是在线游玩——我已经确定我在游玩时使用的是我们推荐的浏览器——Safari(仅苹果)、Microsoft Edge、Google Chrome、FireFox，而不是使用如百度、360、2345、UC浏览器、手机自带浏览器等其他浏览器游玩的。
           required: false
         - label: 如果您使用的是Windows电脑本地游玩(非在线游玩)——我确定我的电脑使用的系统版本大于等于Windows7 SP1 。
           required: false
-        - label: 我已经详细阅读过游戏的帮助文档，但我的问题没有得到解答。
-          required: true
   - type: markdown
     attributes: 
       value: |
@@ -109,12 +104,3 @@ body:
       default: 0
     validations:
       required: false
-
-  - type: checkboxes
-    id: revision
-    attributes:
-      label: 最后一步
-      description: 回顾您的回答
-      options:
-        - label: 我认为上述的描述已经足以详细，以允许开发人员能复现该问题
-          required: true
