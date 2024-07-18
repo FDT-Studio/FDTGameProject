@@ -94,7 +94,7 @@ changeFigure:斯卡蒂fixed/8fcf5369ad576e9886eec33a7d698592.png -next;
 :斯卡蒂的话语给了博士刹那间的安慰，但很快就又将其推入了更深的绝望。 -fontSize=default;
 changeFigure:选择立绘文件 -next;
 changeBg:CG/3eda9027e4dcb23410259d6f47096dd1.png -next;
-斯卡蒂:还是感觉腹胀没必要都留到回岛解决了，嘛，今天已经很麻烦博士了，回去的路上我背着你就好啦。 -fontSize=default;
+斯卡蒂:还是感觉腹胀没必要都留到回岛解决了，嘛，今天已经很麻烦博士了，回去的路上我背着你就好啦。 -fontSize=small;
 choose:等等，这就没有..:选择场景文件;
 changeBg:CG/a614c7de33e74cf1a9392c2b53fabcaf.png -next;
 ;御坂球好帅

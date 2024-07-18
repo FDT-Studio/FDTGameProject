@@ -1,3 +1,3 @@
 斯卡蒂:大概...吧？ -fontSize=small -center;
 :这绝不是什么错觉，毕竟斯卡蒂并没有骗过我，眼下语气中的含糊足以作为答案。 -fontSize=small;
-changeScene:afterstart-1.txt
+changeScene:scene2.txt
