@@ -13,7 +13,7 @@ changeFigure: -right -next;
 changeBg:背景/汐斯塔沙滩2.png -next -unlockname=汐斯塔沙滩2;
 bgm:日常/日常-holiday.mp3 -enter=500 -unlockname=日常の小曲2;
 changeFigure:博士/Npc_doctor.png -left -next;
-changeFigure:斯卡蒂/å¾å± 1.png -right -next;
+changeFigure:斯卡蒂fixed/8fcf5369ad576e9886eec33a7d698592.png -right -next;
 斯卡蒂:博士接下来有什么计划吗？ -fontSize=small -right;
 博士:暂时没想好，我这里没带专门的泳装，玩水回去收拾衣服肯定会被凯尔希抓包。 -fontSize=small -left;
 斯卡蒂:既然如此，我应该可以拜托博士来帮我涂点防晒霜的吧。 -fontSize=small -center;
